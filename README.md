@@ -8,8 +8,8 @@ To test puput just clone the repository and:
 ```
 $ docker-compose up -d
 $ docker-compose ps
-$ docker exec -ti dockerpuput_web_1 python manage.py migrate
-$ docker exec -ti dockerpuput_web_1 python manage.py puput_initial_data
+$ docker exec -ti docker-puput_web_1 python manage.py migrate
+$ docker exec -ti docker-puput_web_1 python manage.py puput_initial_data
 ```
 You can see the Puput blog at:
 [http://localhost:8000/blog/](http://localhost:8000/blog/)
